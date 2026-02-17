@@ -13,6 +13,14 @@ A fully functional Chess game built using **Python** and **Pygame**, featuring a
     * **Restart Game:** Press `R` to reset the board instantly.
 * **Visuals:** Animated end-game overlay and clean UI.
 
+## Screenshots
+
+![Chess Menu](screenshots/menu.png)
+
+![Chess Gameplay](screenshots/board.png)
+
+
+
 ## 🛠️ Tech Stack
 
 * **Language:** Python 3
