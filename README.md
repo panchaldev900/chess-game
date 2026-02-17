@@ -1,62 +1,48 @@
-A fully functional Chess game built using Python and Pygame, featuring AI mode, checkmate detection, and an animated end-game screen.
+# ♟️ Python Chess Game
 
-🚀 Features
+A fully functional Chess game built using **Python** and **Pygame**, featuring a smart AI mode, legal move validation, and an animated end-game screen.
 
-Two-player mode
+## 🚀 Features
 
-Play vs AI
+* **Two-player Mode:** Classic PvP on the same machine.
+* **Play vs AI:** Challenge the computer with basic AI logic.
+* **Move Validation:** Prevents illegal moves automatically.
+* **Game States:** Full detection for Check, Checkmate, and Stalemate.
+* **Quality of Life:**
+    * **Undo Move:** Press `Z` to take back a mistake.
+    * **Restart Game:** Press `R` to reset the board instantly.
+* **Visuals:** Animated end-game overlay and clean UI.
 
-Legal move validation
+## 🛠️ Tech Stack
 
-Check detection
+* **Language:** Python 3
+* **Library:** Pygame
+* **Paradigm:** Object-Oriented Programming (OOP)
 
-Checkmate detection
+## 🎮 Controls
 
-Stalemate detection
+| Action | Key / Control |
+| :--- | :--- |
+| **Select Piece** | 🖱️ Left Mouse Click |
+| **Move Piece** | 🖱️ Left Mouse Click |
+| **Undo Move** | `Z` Key |
+| **Restart Game** | `R` Key |
 
-Undo move (Z key)
+## 📂 Project Structure
 
-Restart game (R key)
-
-Animated end-game overlay
-
-🛠️ Tech Stack
-
-Python 3
-
-Pygame
-
-Object-Oriented Programming
-
-🎮 Controls
-Action	Key
-Select piece	Mouse click
-Move piece	Mouse click
-Undo move	Z
-Restart game	R
-📂 Project Structure
+```text
 CHESS_GAME/
 │
-├── chess_main.py        # Main driver file
-├── chess_engine.py      # Game logic
-├── image/               # Chess piece images
-├── screenshots/         # Game screenshots
-└── README.md
+├── chess_main.py       # Main driver file (Run this to start)
+├── chess_engine.py     # Contains all Game Logic and Move generation
+├── image/              # Folder containing chess piece assets
+├── screenshots/        # Gameplay screenshots
+└── README.md           # Project documentation
 
-
-▶️ How to Run
-
-Install Python
-
-Install Pygame:
-
-pip install pygame
-
-Run the game:
-
-python chess_main.py
+```
 
 👨‍💻 Author
-Developed by Your Dev Panchal
+
+Developed by Dev Panchal
 
 ⭐ Feel free to fork and improve this project!
